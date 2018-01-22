@@ -24,4 +24,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compileOnly 'com.google.android.things:androidthings:+'
+
+    implementation 'org.nanohttpd:nanohttpd:2.2.0'
 }
