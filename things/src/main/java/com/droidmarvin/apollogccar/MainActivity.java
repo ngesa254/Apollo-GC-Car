@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 
                     @Override
                     public void onCommand(String command) {
-                        Log.d(TAG, "Command received ["+command+"]");
+                        Log.d(TAG, "Command received ["+ command +"]");
                         if (command.equals("F"))
                             motorLogic.forward();
                         else if (command.equals("B"))
