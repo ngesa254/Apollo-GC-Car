@@ -26,6 +26,11 @@ public class MotorLogic {
             pin1Motor2 = service.openGpio("BCM23");
             pin2Motor2 = service.openGpio("BCM24");
 
+            pin1Motor1.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
+            pin2Motor1.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
+            pin1Motor2.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
+            pin2Motor2.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
+
 
         } catch (IOException e) {
             e.printStackTrace();
